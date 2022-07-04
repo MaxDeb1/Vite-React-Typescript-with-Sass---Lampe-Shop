@@ -4,4 +4,4 @@ Projet créé à partir de la maquette figma disponible sous la vidéo YouTube d
 
 Le but premier de ce projet était de continuer à se familiariser avec TypeScript.
 
-![Design preview for the Lampe Shop](./assets/preview.jpg)
+![Design preview for the Lampe Shop](src/assets/preview.jpg)
