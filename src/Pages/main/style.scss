@@ -1,0 +1,77 @@
+main {
+    display: flex;
+    flex: 1 0 auto;
+    overflow: hidden;
+    padding-right: 2%;
+}
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 43.3%;
+
+    .text {
+        margin: 7.2222vh 10.1% 7.2222vh 0;
+        /* padding-left: 4.713%; */
+        font-size: 1.313rem;
+        line-height: 1.47rem;
+        color: #94A6A6;
+
+        p:nth-child(2) {
+            margin-top: 1.5rem;
+        }
+    }
+
+    .text,
+    .lamp__informations {
+        padding-left: 4.713%; 
+    }
+}
+
+.right-side {
+    flex-basis: 56.7%;
+    background: no-repeat center / cover url("../../assets/images/Mask\ Group.png");
+    border-radius: 20px;
+
+    &.night {
+        background: no-repeat center / cover url("../../assets/images/Mask\ Group Night.png");
+
+        .lamp__selected {
+            display: none;
+        }
+    }
+
+    .lamp__selected {
+        &.Copper {
+            transform: translate(25.5%, -7px);
+
+            img {
+                width: 7.5vh;
+            }
+        }
+
+        &.Iron {
+            transform: translate(28.5%, -7px);
+
+            img {
+                width: 6.5vh;
+            }
+        }
+
+        &.Metal {
+            transform: translate(24.5%, -7px);
+
+            img {
+                width: 12.5vh;
+            }
+
+            @media screen and (max-height: 800px) {
+  transform: translate(24.5%, -10.5vh);
+
+                img {
+                    width: 15vh;
+                }
+            }
+        }
+    }
+}

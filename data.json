@@ -1,0 +1,40 @@
+{ 
+    "lamps": [
+        {
+            "id": 1,
+            "material": "Copper",
+            "dimensions": "H 33 x W 15 x D 15",
+            "weight": "2.5kg",
+            "electrification": "LED 10W | G9 | 220-240B | 50 Hz",
+            "img": {
+                "small": "./src/assets/images/Lamp - 5.png",
+                "medium": "./src/assets/images/Lamp - 1.png",
+                "wide": "./src/assets/images/Lamp - 1-2.png"
+            }
+        },
+        {
+            "id": 2,
+            "material": "Iron",
+            "dimensions": "H 38 x W 13 x D 15",
+            "weight": "2.6kg",
+            "electrification": "LED 10W | G9 | 220-240B | 50 Hz",
+            "img": {
+                "small": "./src/assets/images/Lamp - 6.png",
+                "medium": "./src/assets/images/Lamp - 3.png",
+                "wide": "./src/assets/images/Lamp - 3-2.png"
+            }
+        },
+        {
+            "id": 3,
+            "material": "Metal",
+            "dimensions": "H 45 x W 12 x D 12",
+            "weight": "2.4kg",
+            "electrification": "LED 10W | G9 | 220-240B | 50 Hz",
+            "img": {
+                "small": "./src/assets/images/Lamp - 7.png",
+                "medium": "./src/assets/images/Lamp - 2.png",
+                "wide": "./src/assets/images/Lamp - 2-2.png"
+            }
+        }
+    ]
+}
